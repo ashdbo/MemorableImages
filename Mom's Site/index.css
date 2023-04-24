@@ -1,0 +1,162 @@
+* {
+    flex-wrap: wrap;
+    scroll-padding-top: 130px;
+    align-items: center;
+    font-family: Georgia, sans-serif;
+}
+
+body {
+    position: relative;
+    top: 123px;
+    color: black;
+    max-width: 100%;
+}
+
+span {
+    font-style: italic;
+}
+
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align:center;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+h2{
+    text-align: center;
+}
+
+#header {
+    min-height: 130px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color:  #a49685 /* #9da4a4*/;
+    color: black;
+    border-bottom: 1px solid white;
+    z-index: 20;
+}
+
+#title {
+    margin-left: 20px;
+}
+
+#title h1{
+    font-family: 'Lucida Handwriting';
+    text-decoration: none;
+}
+
+#nav {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#nav h3 {
+    font-size: 16px;
+    text-decoration: underline;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+a{
+    color: blue;
+}
+
+#about, #contact {
+    background-color: #aba494;
+    padding: 10px 0px;
+    margin-bottom: 5px;
+}
+
+#products {
+    background-image: url("images/neutral5.jpg");
+    background-repeat: fill;
+    min-height: 500px;
+    min-width: 100%;
+    padding: 10px 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#gallery {
+    text-align: center;
+}
+
+#products ul{
+    background-color: #f8f0e9;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    list-style-type: none;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+li {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+#photos {
+    display: flex;
+    background-color: #f8f0e9;
+    margin-right: 15px;
+    margin-left: 15px;
+   
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+    max-width: 25%;
+}
+
+@media only screen and (max-width: 850px) {
+    .photo {
+        min-width: 90%;
+    }
+}
+
+@media only screen and (max-width:290px){
+    * {
+        scroll-padding-top: 140px;
+    
+    }
+    body {
+        position: relative;
+        top: 130px;
+    }
+    .photo {
+        min-width: 85%;
+    }
+
+}
