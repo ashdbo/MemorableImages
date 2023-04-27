@@ -55,7 +55,7 @@ h2{
 }
 
 #title h1{
-    font-family: 'Lucida Handwriting';
+    font-family:'Lucida Handwriting','Brush Script MT';
     text-decoration: none;
 }
 
@@ -98,7 +98,7 @@ a{
     text-align: center;
 }
 
-#products ul{
+#products ul, #fluidart {
     background-color: #f8f0e9;
     margin-bottom: 10px;
     text-align: center;
@@ -141,6 +141,14 @@ li {
 }
 
 @media only screen and (max-width: 850px) {
+    * {
+        scroll-padding-top: 250px;
+    
+    }
+    body {
+        position: relative;
+        top: 210px;
+    }
     .photo {
         min-width: 90%;
     }
@@ -148,12 +156,12 @@ li {
 
 @media only screen and (max-width:290px){
     * {
-        scroll-padding-top: 140px;
+        scroll-padding-top: 300px;
     
     }
     body {
         position: relative;
-        top: 130px;
+        top: 250px;
     }
     .photo {
         min-width: 85%;
