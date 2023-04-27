@@ -149,6 +149,9 @@ li {
         position: relative;
         top: 210px;
     }
+    #title h1{
+        font-family:'Brush Script MT';
+    }
     .photo {
         min-width: 90%;
     }
@@ -162,6 +165,9 @@ li {
     body {
         position: relative;
         top: 250px;
+    }
+    #title h1{
+        font-family:'Brush Script MT';
     }
     .photo {
         min-width: 85%;
